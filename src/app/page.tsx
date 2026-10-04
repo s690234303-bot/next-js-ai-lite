@@ -1,9 +1,8 @@
-import Chat from "@/components/chat";
-
 export default function Home() {
   return (
-    <div className="relative flex h-[calc(100vh_-_theme(spacing.16))] overflow-hidden pb-10 flex-col">
-      <Chat />
+    <div style={{ padding: '50px', textAlign: 'center', fontFamily: 'sans-serif' }}>
+      <h1 style={{ color: 'red' }}>🚨 ระบบรายงานสถานการณ์แบบ Real-time</h1>
+      <p>ยินดีต้อนรับ! ตอนนี้เรากำลังสร้างระบบแจ้งเหตุครับ</p>
     </div>
   );
 }
